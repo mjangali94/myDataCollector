@@ -1,0 +1,1974 @@
+=== Benchmark: zipkin2.clusters.Cluster_1._Benchmark.benchmark_Cluster_1$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_1._Benchmark.benchmark_Cluster_1
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 58875.407 ops/s
+# Warmup Iteration   2: 70351.766 ops/s
+# Warmup Iteration   3: 133375.302 ops/s
+# Warmup Iteration   4: 141723.106 ops/s
+# Warmup Iteration   5: 140719.789 ops/s
+# Warmup Iteration   6: 141566.514 ops/s
+# Warmup Iteration   7: 141343.460 ops/s
+# Warmup Iteration   8: 127061.980 ops/s
+# Warmup Iteration   9: 110478.047 ops/s
+# Warmup Iteration  10: 144047.023 ops/s
+# Warmup Iteration  11: 144368.183 ops/s
+# Warmup Iteration  12: 144320.751 ops/s
+# Warmup Iteration  13: 144233.991 ops/s
+# Warmup Iteration  14: 144330.951 ops/s
+# Warmup Iteration  15: 143919.780 ops/s
+# Warmup Iteration  16: 144315.528 ops/s
+# Warmup Iteration  17: 143092.749 ops/s
+# Warmup Iteration  18: 142009.652 ops/s
+# Warmup Iteration  19: 142866.490 ops/s
+# Warmup Iteration  20: 141295.992 ops/s
+# Warmup Iteration  21: 140864.520 ops/s
+# Warmup Iteration  22: 140038.521 ops/s
+# Warmup Iteration  23: 141356.078 ops/s
+# Warmup Iteration  24: 140352.908 ops/s
+# Warmup Iteration  25: 141754.700 ops/s
+# Warmup Iteration  26: 140386.675 ops/s
+# Warmup Iteration  27: 140879.480 ops/s
+# Warmup Iteration  28: 140946.881 ops/s
+# Warmup Iteration  29: 140232.593 ops/s
+# Warmup Iteration  30: 140281.392 ops/s
+Iteration   1: 140664.515 ops/s
+Iteration   2: 140936.945 ops/s
+Iteration   3: 141215.396 ops/s
+Iteration   4: 142809.338 ops/s
+Iteration   5: 141119.267 ops/s
+Iteration   6: 140302.923 ops/s
+Iteration   7: 139851.907 ops/s
+Iteration   8: 139061.752 ops/s
+Iteration   9: 142109.920 ops/s
+Iteration  10: 141600.775 ops/s
+Iteration  11: 139876.916 ops/s
+Iteration  12: 140543.943 ops/s
+Iteration  13: 140724.049 ops/s
+Iteration  14: 140216.946 ops/s
+Iteration  15: 141141.019 ops/s
+Iteration  16: 142441.107 ops/s
+Iteration  17: 143128.112 ops/s
+Iteration  18: 142933.436 ops/s
+Iteration  19: 142142.433 ops/s
+Iteration  20: 142523.070 ops/s
+Iteration  21: 142861.717 ops/s
+Iteration  22: 142780.639 ops/s
+Iteration  23: 142526.080 ops/s
+Iteration  24: 142305.423 ops/s
+Iteration  25: 142089.618 ops/s
+Iteration  26: 142339.633 ops/s
+Iteration  27: 142140.229 ops/s
+Iteration  28: 142578.489 ops/s
+Iteration  29: 141977.249 ops/s
+Iteration  30: 142675.305 ops/s
+
+
+Result "zipkin2.clusters.Cluster_1._Benchmark.benchmark_Cluster_1":
+  141653.938 ±(99.9%) 735.319 ops/s [Average]
+  (min, avg, max) = (139061.752, 141653.938, 143128.112), stdev = 1100.591
+  CI (99.9%): [140918.619, 142389.258] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                  Mode  Cnt       Score     Error  Units
+Cluster_1._Benchmark.benchmark_Cluster_1  thrpt   30  141653.938 ± 735.319  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_10._Benchmark.benchmark_Cluster_10$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_10._Benchmark.benchmark_Cluster_10
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 45564.634 ops/s
+# Warmup Iteration   2: 63698.811 ops/s
+# Warmup Iteration   3: 118239.347 ops/s
+# Warmup Iteration   4: 121362.789 ops/s
+# Warmup Iteration   5: 122096.571 ops/s
+# Warmup Iteration   6: 120686.930 ops/s
+# Warmup Iteration   7: 87741.332 ops/s
+# Warmup Iteration   8: 121438.528 ops/s
+# Warmup Iteration   9: 121822.998 ops/s
+# Warmup Iteration  10: 119668.440 ops/s
+# Warmup Iteration  11: 120228.167 ops/s
+# Warmup Iteration  12: 121426.828 ops/s
+# Warmup Iteration  13: 120978.284 ops/s
+# Warmup Iteration  14: 121310.403 ops/s
+# Warmup Iteration  15: 120633.949 ops/s
+# Warmup Iteration  16: 120094.082 ops/s
+# Warmup Iteration  17: 121839.556 ops/s
+# Warmup Iteration  18: 121147.759 ops/s
+# Warmup Iteration  19: 121801.318 ops/s
+# Warmup Iteration  20: 122246.058 ops/s
+# Warmup Iteration  21: 122739.374 ops/s
+# Warmup Iteration  22: 120715.772 ops/s
+# Warmup Iteration  23: 120582.886 ops/s
+# Warmup Iteration  24: 123487.192 ops/s
+# Warmup Iteration  25: 122740.904 ops/s
+# Warmup Iteration  26: 122406.102 ops/s
+# Warmup Iteration  27: 123514.009 ops/s
+# Warmup Iteration  28: 122003.986 ops/s
+# Warmup Iteration  29: 123324.611 ops/s
+# Warmup Iteration  30: 122592.438 ops/s
+Iteration   1: 122146.486 ops/s
+Iteration   2: 123152.615 ops/s
+Iteration   3: 123300.873 ops/s
+Iteration   4: 122731.120 ops/s
+Iteration   5: 123064.690 ops/s
+Iteration   6: 123355.119 ops/s
+Iteration   7: 122460.766 ops/s
+Iteration   8: 123056.205 ops/s
+Iteration   9: 125265.032 ops/s
+Iteration  10: 123873.733 ops/s
+Iteration  11: 125576.019 ops/s
+Iteration  12: 125606.304 ops/s
+Iteration  13: 123951.186 ops/s
+Iteration  14: 124155.581 ops/s
+Iteration  15: 124399.389 ops/s
+Iteration  16: 123431.492 ops/s
+Iteration  17: 123782.978 ops/s
+Iteration  18: 121947.693 ops/s
+Iteration  19: 122852.049 ops/s
+Iteration  20: 122796.214 ops/s
+Iteration  21: 122661.139 ops/s
+Iteration  22: 122608.023 ops/s
+Iteration  23: 123487.016 ops/s
+Iteration  24: 124624.555 ops/s
+Iteration  25: 124169.050 ops/s
+Iteration  26: 124016.587 ops/s
+Iteration  27: 123317.884 ops/s
+Iteration  28: 123610.897 ops/s
+Iteration  29: 124482.370 ops/s
+Iteration  30: 123133.530 ops/s
+
+
+Result "zipkin2.clusters.Cluster_10._Benchmark.benchmark_Cluster_10":
+  123567.220 ±(99.9%) 625.418 ops/s [Average]
+  (min, avg, max) = (121947.693, 123567.220, 125606.304), stdev = 936.097
+  CI (99.9%): [122941.802, 124192.638] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                    Mode  Cnt       Score     Error  Units
+Cluster_10._Benchmark.benchmark_Cluster_10  thrpt   30  123567.220 ± 625.418  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_11._Benchmark.benchmark_Cluster_11$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_11._Benchmark.benchmark_Cluster_11
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 45034.679 ops/s
+# Warmup Iteration   2: 52809.683 ops/s
+# Warmup Iteration   3: 109054.426 ops/s
+# Warmup Iteration   4: 113300.816 ops/s
+# Warmup Iteration   5: 112571.295 ops/s
+# Warmup Iteration   6: 110866.292 ops/s
+# Warmup Iteration   7: 112050.952 ops/s
+# Warmup Iteration   8: 89614.536 ops/s
+# Warmup Iteration   9: 96909.507 ops/s
+# Warmup Iteration  10: 112393.985 ops/s
+# Warmup Iteration  11: 111913.033 ops/s
+# Warmup Iteration  12: 110686.634 ops/s
+# Warmup Iteration  13: 111105.429 ops/s
+# Warmup Iteration  14: 110983.600 ops/s
+# Warmup Iteration  15: 111962.390 ops/s
+# Warmup Iteration  16: 112900.863 ops/s
+# Warmup Iteration  17: 110414.208 ops/s
+# Warmup Iteration  18: 112183.670 ops/s
+# Warmup Iteration  19: 111156.574 ops/s
+# Warmup Iteration  20: 111161.927 ops/s
+# Warmup Iteration  21: 111273.384 ops/s
+# Warmup Iteration  22: 112023.417 ops/s
+# Warmup Iteration  23: 111501.760 ops/s
+# Warmup Iteration  24: 110669.656 ops/s
+# Warmup Iteration  25: 112192.036 ops/s
+# Warmup Iteration  26: 111237.541 ops/s
+# Warmup Iteration  27: 111220.294 ops/s
+# Warmup Iteration  28: 110948.658 ops/s
+# Warmup Iteration  29: 110602.133 ops/s
+# Warmup Iteration  30: 111071.486 ops/s
+Iteration   1: 111365.037 ops/s
+Iteration   2: 110911.782 ops/s
+Iteration   3: 112054.264 ops/s
+Iteration   4: 111675.931 ops/s
+Iteration   5: 110569.005 ops/s
+Iteration   6: 110455.375 ops/s
+Iteration   7: 110685.610 ops/s
+Iteration   8: 110878.020 ops/s
+Iteration   9: 112533.146 ops/s
+Iteration  10: 110412.993 ops/s
+Iteration  11: 110164.721 ops/s
+Iteration  12: 110500.675 ops/s
+Iteration  13: 110888.126 ops/s
+Iteration  14: 109862.744 ops/s
+Iteration  15: 112744.279 ops/s
+Iteration  16: 111974.641 ops/s
+Iteration  17: 111506.535 ops/s
+Iteration  18: 112917.970 ops/s
+Iteration  19: 112911.511 ops/s
+Iteration  20: 112185.849 ops/s
+Iteration  21: 112533.267 ops/s
+Iteration  22: 112822.872 ops/s
+Iteration  23: 113077.572 ops/s
+Iteration  24: 113232.648 ops/s
+Iteration  25: 113212.064 ops/s
+Iteration  26: 112451.571 ops/s
+Iteration  27: 112597.226 ops/s
+Iteration  28: 112466.220 ops/s
+Iteration  29: 112538.756 ops/s
+Iteration  30: 112157.027 ops/s
+
+
+Result "zipkin2.clusters.Cluster_11._Benchmark.benchmark_Cluster_11":
+  111809.581 ±(99.9%) 690.333 ops/s [Average]
+  (min, avg, max) = (109862.744, 111809.581, 113232.648), stdev = 1033.258
+  CI (99.9%): [111119.248, 112499.914] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                    Mode  Cnt       Score     Error  Units
+Cluster_11._Benchmark.benchmark_Cluster_11  thrpt   30  111809.581 ± 690.333  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_12._Benchmark.benchmark_Cluster_12$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_12._Benchmark.benchmark_Cluster_12
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 65049.795 ops/s
+# Warmup Iteration   2: 77126.435 ops/s
+# Warmup Iteration   3: 165976.568 ops/s
+# Warmup Iteration   4: 164355.719 ops/s
+# Warmup Iteration   5: 167821.758 ops/s
+# Warmup Iteration   6: 167285.041 ops/s
+# Warmup Iteration   7: 165463.466 ops/s
+# Warmup Iteration   8: 112373.529 ops/s
+# Warmup Iteration   9: 166467.546 ops/s
+# Warmup Iteration  10: 165820.685 ops/s
+# Warmup Iteration  11: 166207.966 ops/s
+# Warmup Iteration  12: 166389.019 ops/s
+# Warmup Iteration  13: 164871.651 ops/s
+# Warmup Iteration  14: 166385.609 ops/s
+# Warmup Iteration  15: 165081.022 ops/s
+# Warmup Iteration  16: 165838.472 ops/s
+# Warmup Iteration  17: 165620.921 ops/s
+# Warmup Iteration  18: 162977.996 ops/s
+# Warmup Iteration  19: 164025.140 ops/s
+# Warmup Iteration  20: 163609.062 ops/s
+# Warmup Iteration  21: 165513.534 ops/s
+# Warmup Iteration  22: 167007.017 ops/s
+# Warmup Iteration  23: 166782.347 ops/s
+# Warmup Iteration  24: 166376.868 ops/s
+# Warmup Iteration  25: 166355.510 ops/s
+# Warmup Iteration  26: 166980.111 ops/s
+# Warmup Iteration  27: 166956.673 ops/s
+# Warmup Iteration  28: 167208.262 ops/s
+# Warmup Iteration  29: 167364.190 ops/s
+# Warmup Iteration  30: 166458.860 ops/s
+Iteration   1: 167123.605 ops/s
+Iteration   2: 167283.253 ops/s
+Iteration   3: 167229.046 ops/s
+Iteration   4: 167278.537 ops/s
+Iteration   5: 166709.784 ops/s
+Iteration   6: 165817.444 ops/s
+Iteration   7: 166715.887 ops/s
+Iteration   8: 167294.698 ops/s
+Iteration   9: 166532.508 ops/s
+Iteration  10: 166037.570 ops/s
+Iteration  11: 165546.298 ops/s
+Iteration  12: 165817.524 ops/s
+Iteration  13: 165917.429 ops/s
+Iteration  14: 164997.223 ops/s
+Iteration  15: 166498.240 ops/s
+Iteration  16: 165302.262 ops/s
+Iteration  17: 166859.045 ops/s
+Iteration  18: 166217.841 ops/s
+Iteration  19: 166362.175 ops/s
+Iteration  20: 165610.756 ops/s
+Iteration  21: 164513.873 ops/s
+Iteration  22: 166825.831 ops/s
+Iteration  23: 166710.004 ops/s
+Iteration  24: 165731.673 ops/s
+Iteration  25: 166145.954 ops/s
+Iteration  26: 166065.982 ops/s
+Iteration  27: 167276.937 ops/s
+Iteration  28: 166716.837 ops/s
+Iteration  29: 166896.855 ops/s
+Iteration  30: 166143.090 ops/s
+
+
+Result "zipkin2.clusters.Cluster_12._Benchmark.benchmark_Cluster_12":
+  166339.272 ±(99.9%) 482.555 ops/s [Average]
+  (min, avg, max) = (164513.873, 166339.272, 167294.698), stdev = 722.266
+  CI (99.9%): [165856.717, 166821.827] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                    Mode  Cnt       Score     Error  Units
+Cluster_12._Benchmark.benchmark_Cluster_12  thrpt   30  166339.272 ± 482.555  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_13._Benchmark.benchmark_Cluster_13$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_13._Benchmark.benchmark_Cluster_13
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 47483.249 ops/s
+# Warmup Iteration   2: 64851.338 ops/s
+# Warmup Iteration   3: 122247.460 ops/s
+# Warmup Iteration   4: 139980.872 ops/s
+# Warmup Iteration   5: 137061.889 ops/s
+# Warmup Iteration   6: 139477.482 ops/s
+# Warmup Iteration   7: 139783.117 ops/s
+# Warmup Iteration   8: 129225.862 ops/s
+# Warmup Iteration   9: 112920.340 ops/s
+# Warmup Iteration  10: 143423.301 ops/s
+# Warmup Iteration  11: 141969.782 ops/s
+# Warmup Iteration  12: 141390.559 ops/s
+# Warmup Iteration  13: 141770.863 ops/s
+# Warmup Iteration  14: 141541.952 ops/s
+# Warmup Iteration  15: 142933.091 ops/s
+# Warmup Iteration  16: 142108.896 ops/s
+# Warmup Iteration  17: 142160.043 ops/s
+# Warmup Iteration  18: 143736.261 ops/s
+# Warmup Iteration  19: 143236.059 ops/s
+# Warmup Iteration  20: 142663.542 ops/s
+# Warmup Iteration  21: 143038.358 ops/s
+# Warmup Iteration  22: 142402.931 ops/s
+# Warmup Iteration  23: 142446.477 ops/s
+# Warmup Iteration  24: 141849.507 ops/s
+# Warmup Iteration  25: 141848.302 ops/s
+# Warmup Iteration  26: 142442.551 ops/s
+# Warmup Iteration  27: 141504.399 ops/s
+# Warmup Iteration  28: 140764.323 ops/s
+# Warmup Iteration  29: 142327.606 ops/s
+# Warmup Iteration  30: 142510.390 ops/s
+Iteration   1: 141061.463 ops/s
+Iteration   2: 142685.956 ops/s
+Iteration   3: 142193.599 ops/s
+Iteration   4: 141901.257 ops/s
+Iteration   5: 141399.123 ops/s
+Iteration   6: 139803.982 ops/s
+Iteration   7: 139816.795 ops/s
+Iteration   8: 140454.501 ops/s
+Iteration   9: 142692.652 ops/s
+Iteration  10: 142212.982 ops/s
+Iteration  11: 142357.720 ops/s
+Iteration  12: 143298.050 ops/s
+Iteration  13: 141654.580 ops/s
+Iteration  14: 141068.795 ops/s
+Iteration  15: 140922.705 ops/s
+Iteration  16: 141340.975 ops/s
+Iteration  17: 143492.803 ops/s
+Iteration  18: 142306.854 ops/s
+Iteration  19: 141288.194 ops/s
+Iteration  20: 141419.790 ops/s
+Iteration  21: 141729.824 ops/s
+Iteration  22: 143165.204 ops/s
+Iteration  23: 139875.178 ops/s
+Iteration  24: 141089.798 ops/s
+Iteration  25: 140515.278 ops/s
+Iteration  26: 141655.699 ops/s
+Iteration  27: 142994.175 ops/s
+Iteration  28: 140451.269 ops/s
+Iteration  29: 142157.547 ops/s
+Iteration  30: 142909.422 ops/s
+
+
+Result "zipkin2.clusters.Cluster_13._Benchmark.benchmark_Cluster_13":
+  141663.872 ±(99.9%) 699.280 ops/s [Average]
+  (min, avg, max) = (139803.982, 141663.872, 143492.803), stdev = 1046.649
+  CI (99.9%): [140964.593, 142363.152] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                    Mode  Cnt       Score     Error  Units
+Cluster_13._Benchmark.benchmark_Cluster_13  thrpt   30  141663.872 ± 699.280  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_14._Benchmark.benchmark_Cluster_14$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_14._Benchmark.benchmark_Cluster_14
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 68011.072 ops/s
+# Warmup Iteration   2: 78507.681 ops/s
+# Warmup Iteration   3: 134801.937 ops/s
+# Warmup Iteration   4: 161980.628 ops/s
+# Warmup Iteration   5: 159691.337 ops/s
+# Warmup Iteration   6: 158606.254 ops/s
+# Warmup Iteration   7: 161922.329 ops/s
+# Warmup Iteration   8: 162847.021 ops/s
+# Warmup Iteration   9: 110527.212 ops/s
+# Warmup Iteration  10: 163582.136 ops/s
+# Warmup Iteration  11: 164266.184 ops/s
+# Warmup Iteration  12: 163784.565 ops/s
+# Warmup Iteration  13: 163676.935 ops/s
+# Warmup Iteration  14: 162620.488 ops/s
+# Warmup Iteration  15: 163657.358 ops/s
+# Warmup Iteration  16: 163529.819 ops/s
+# Warmup Iteration  17: 161997.147 ops/s
+# Warmup Iteration  18: 163254.078 ops/s
+# Warmup Iteration  19: 163178.907 ops/s
+# Warmup Iteration  20: 162536.658 ops/s
+# Warmup Iteration  21: 163741.882 ops/s
+# Warmup Iteration  22: 163382.387 ops/s
+# Warmup Iteration  23: 162953.430 ops/s
+# Warmup Iteration  24: 163123.751 ops/s
+# Warmup Iteration  25: 163681.327 ops/s
+# Warmup Iteration  26: 163568.044 ops/s
+# Warmup Iteration  27: 163334.840 ops/s
+# Warmup Iteration  28: 162915.112 ops/s
+# Warmup Iteration  29: 162973.801 ops/s
+# Warmup Iteration  30: 162518.898 ops/s
+Iteration   1: 163796.928 ops/s
+Iteration   2: 164337.094 ops/s
+Iteration   3: 163725.852 ops/s
+Iteration   4: 163492.664 ops/s
+Iteration   5: 163877.702 ops/s
+Iteration   6: 163259.198 ops/s
+Iteration   7: 162110.870 ops/s
+Iteration   8: 163125.410 ops/s
+Iteration   9: 162591.773 ops/s
+Iteration  10: 162223.141 ops/s
+Iteration  11: 161211.116 ops/s
+Iteration  12: 160208.006 ops/s
+Iteration  13: 161290.831 ops/s
+Iteration  14: 160434.211 ops/s
+Iteration  15: 161104.827 ops/s
+Iteration  16: 163473.309 ops/s
+Iteration  17: 163063.176 ops/s
+Iteration  18: 161759.196 ops/s
+Iteration  19: 159973.838 ops/s
+Iteration  20: 161883.964 ops/s
+Iteration  21: 162700.638 ops/s
+Iteration  22: 162478.605 ops/s
+Iteration  23: 162625.721 ops/s
+Iteration  24: 161560.404 ops/s
+Iteration  25: 162787.194 ops/s
+Iteration  26: 162994.565 ops/s
+Iteration  27: 161133.614 ops/s
+Iteration  28: 161995.199 ops/s
+Iteration  29: 161033.272 ops/s
+Iteration  30: 160516.942 ops/s
+
+
+Result "zipkin2.clusters.Cluster_14._Benchmark.benchmark_Cluster_14":
+  162225.642 ±(99.9%) 794.657 ops/s [Average]
+  (min, avg, max) = (159973.838, 162225.642, 164337.094), stdev = 1189.405
+  CI (99.9%): [161430.985, 163020.299] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                    Mode  Cnt       Score     Error  Units
+Cluster_14._Benchmark.benchmark_Cluster_14  thrpt   30  162225.642 ± 794.657  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_15._Benchmark.benchmark_Cluster_15$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_15._Benchmark.benchmark_Cluster_15
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 91131.591 ops/s
+# Warmup Iteration   2: 111002.095 ops/s
+# Warmup Iteration   3: 209492.939 ops/s
+# Warmup Iteration   4: 226447.151 ops/s
+# Warmup Iteration   5: 224715.325 ops/s
+# Warmup Iteration   6: 226299.757 ops/s
+# Warmup Iteration   7: 229369.814 ops/s
+# Warmup Iteration   8: 210326.532 ops/s
+# Warmup Iteration   9: 176946.156 ops/s
+# Warmup Iteration  10: 229023.580 ops/s
+# Warmup Iteration  11: 230733.572 ops/s
+# Warmup Iteration  12: 230567.524 ops/s
+# Warmup Iteration  13: 231362.423 ops/s
+# Warmup Iteration  14: 228641.173 ops/s
+# Warmup Iteration  15: 229530.833 ops/s
+# Warmup Iteration  16: 228306.230 ops/s
+# Warmup Iteration  17: 225662.651 ops/s
+# Warmup Iteration  18: 227121.033 ops/s
+# Warmup Iteration  19: 226836.141 ops/s
+# Warmup Iteration  20: 227549.434 ops/s
+# Warmup Iteration  21: 227160.997 ops/s
+# Warmup Iteration  22: 224832.973 ops/s
+# Warmup Iteration  23: 225873.337 ops/s
+# Warmup Iteration  24: 226328.119 ops/s
+# Warmup Iteration  25: 224509.877 ops/s
+# Warmup Iteration  26: 226370.976 ops/s
+# Warmup Iteration  27: 228062.741 ops/s
+# Warmup Iteration  28: 229007.591 ops/s
+# Warmup Iteration  29: 228888.372 ops/s
+# Warmup Iteration  30: 224593.304 ops/s
+Iteration   1: 229386.470 ops/s
+Iteration   2: 226261.274 ops/s
+Iteration   3: 227196.596 ops/s
+Iteration   4: 227230.457 ops/s
+Iteration   5: 226585.522 ops/s
+Iteration   6: 226133.024 ops/s
+Iteration   7: 224776.879 ops/s
+Iteration   8: 225685.923 ops/s
+Iteration   9: 226884.924 ops/s
+Iteration  10: 223524.890 ops/s
+Iteration  11: 224111.374 ops/s
+Iteration  12: 225021.759 ops/s
+Iteration  13: 228222.376 ops/s
+Iteration  14: 229056.112 ops/s
+Iteration  15: 229581.254 ops/s
+Iteration  16: 228866.470 ops/s
+Iteration  17: 227310.076 ops/s
+Iteration  18: 227378.468 ops/s
+Iteration  19: 226948.630 ops/s
+Iteration  20: 225103.605 ops/s
+Iteration  21: 226903.963 ops/s
+Iteration  22: 229921.489 ops/s
+Iteration  23: 228289.271 ops/s
+Iteration  24: 229257.490 ops/s
+Iteration  25: 230617.773 ops/s
+Iteration  26: 229456.750 ops/s
+Iteration  27: 229425.479 ops/s
+Iteration  28: 230523.925 ops/s
+Iteration  29: 229337.757 ops/s
+Iteration  30: 229992.925 ops/s
+
+
+Result "zipkin2.clusters.Cluster_15._Benchmark.benchmark_Cluster_15":
+  227633.097 ±(99.9%) 1319.448 ops/s [Average]
+  (min, avg, max) = (223524.890, 227633.097, 230617.773), stdev = 1974.887
+  CI (99.9%): [226313.649, 228952.545] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                    Mode  Cnt       Score      Error  Units
+Cluster_15._Benchmark.benchmark_Cluster_15  thrpt   30  227633.097 ± 1319.448  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_16._Benchmark.benchmark_Cluster_16$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_16._Benchmark.benchmark_Cluster_16
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 45083.579 ops/s
+# Warmup Iteration   2: 59964.382 ops/s
+# Warmup Iteration   3: 125678.105 ops/s
+# Warmup Iteration   4: 124700.120 ops/s
+# Warmup Iteration   5: 127169.415 ops/s
+# Warmup Iteration   6: 127313.612 ops/s
+# Warmup Iteration   7: 127421.756 ops/s
+# Warmup Iteration   8: 91219.368 ops/s
+# Warmup Iteration   9: 128094.916 ops/s
+# Warmup Iteration  10: 129025.362 ops/s
+# Warmup Iteration  11: 128540.355 ops/s
+# Warmup Iteration  12: 128678.058 ops/s
+# Warmup Iteration  13: 128078.864 ops/s
+# Warmup Iteration  14: 128360.995 ops/s
+# Warmup Iteration  15: 128658.625 ops/s
+# Warmup Iteration  16: 128400.968 ops/s
+# Warmup Iteration  17: 128774.756 ops/s
+# Warmup Iteration  18: 128599.430 ops/s
+# Warmup Iteration  19: 128204.174 ops/s
+# Warmup Iteration  20: 129650.565 ops/s
+# Warmup Iteration  21: 129318.007 ops/s
+# Warmup Iteration  22: 128745.085 ops/s
+# Warmup Iteration  23: 128813.968 ops/s
+# Warmup Iteration  24: 129024.609 ops/s
+# Warmup Iteration  25: 129762.173 ops/s
+# Warmup Iteration  26: 128537.042 ops/s
+# Warmup Iteration  27: 128701.481 ops/s
+# Warmup Iteration  28: 128855.203 ops/s
+# Warmup Iteration  29: 128441.440 ops/s
+# Warmup Iteration  30: 129694.843 ops/s
+Iteration   1: 128572.639 ops/s
+Iteration   2: 128698.199 ops/s
+Iteration   3: 129365.035 ops/s
+Iteration   4: 129496.120 ops/s
+Iteration   5: 129534.421 ops/s
+Iteration   6: 129051.617 ops/s
+Iteration   7: 129301.867 ops/s
+Iteration   8: 129322.600 ops/s
+Iteration   9: 128286.995 ops/s
+Iteration  10: 126924.015 ops/s
+Iteration  11: 126822.946 ops/s
+Iteration  12: 128990.350 ops/s
+Iteration  13: 128202.062 ops/s
+Iteration  14: 127560.019 ops/s
+Iteration  15: 127840.754 ops/s
+Iteration  16: 128714.173 ops/s
+Iteration  17: 130130.815 ops/s
+Iteration  18: 128914.219 ops/s
+Iteration  19: 129156.346 ops/s
+Iteration  20: 129242.812 ops/s
+Iteration  21: 129493.446 ops/s
+Iteration  22: 129674.261 ops/s
+Iteration  23: 130609.873 ops/s
+Iteration  24: 129008.067 ops/s
+Iteration  25: 128702.961 ops/s
+Iteration  26: 129022.592 ops/s
+Iteration  27: 127894.574 ops/s
+Iteration  28: 128740.991 ops/s
+Iteration  29: 126988.563 ops/s
+Iteration  30: 127335.292 ops/s
+
+
+Result "zipkin2.clusters.Cluster_16._Benchmark.benchmark_Cluster_16":
+  128719.954 ±(99.9%) 624.428 ops/s [Average]
+  (min, avg, max) = (126822.946, 128719.954, 130609.873), stdev = 934.615
+  CI (99.9%): [128095.526, 129344.383] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                    Mode  Cnt       Score     Error  Units
+Cluster_16._Benchmark.benchmark_Cluster_16  thrpt   30  128719.954 ± 624.428  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_17._Benchmark.benchmark_Cluster_17$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_17._Benchmark.benchmark_Cluster_17
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 39168.954 ops/s
+# Warmup Iteration   2: 49654.742 ops/s
+# Warmup Iteration   3: 93748.982 ops/s
+# Warmup Iteration   4: 104137.338 ops/s
+# Warmup Iteration   5: 107749.133 ops/s
+# Warmup Iteration   6: 108617.737 ops/s
+# Warmup Iteration   7: 108565.259 ops/s
+# Warmup Iteration   8: 85585.379 ops/s
+# Warmup Iteration   9: 98826.627 ops/s
+# Warmup Iteration  10: 107615.799 ops/s
+# Warmup Iteration  11: 108754.678 ops/s
+# Warmup Iteration  12: 108976.134 ops/s
+# Warmup Iteration  13: 108720.576 ops/s
+# Warmup Iteration  14: 108629.551 ops/s
+# Warmup Iteration  15: 108780.649 ops/s
+# Warmup Iteration  16: 109746.517 ops/s
+# Warmup Iteration  17: 109496.985 ops/s
+# Warmup Iteration  18: 109434.442 ops/s
+# Warmup Iteration  19: 108346.506 ops/s
+# Warmup Iteration  20: 107301.727 ops/s
+# Warmup Iteration  21: 106702.494 ops/s
+# Warmup Iteration  22: 106768.402 ops/s
+# Warmup Iteration  23: 107259.592 ops/s
+# Warmup Iteration  24: 106647.270 ops/s
+# Warmup Iteration  25: 107808.934 ops/s
+# Warmup Iteration  26: 108603.484 ops/s
+# Warmup Iteration  27: 108834.030 ops/s
+# Warmup Iteration  28: 107535.738 ops/s
+# Warmup Iteration  29: 106592.364 ops/s
+# Warmup Iteration  30: 106825.776 ops/s
+Iteration   1: 106783.429 ops/s
+Iteration   2: 107344.642 ops/s
+Iteration   3: 108267.273 ops/s
+Iteration   4: 107879.279 ops/s
+Iteration   5: 106458.185 ops/s
+Iteration   6: 106794.366 ops/s
+Iteration   7: 106982.489 ops/s
+Iteration   8: 107690.497 ops/s
+Iteration   9: 107373.931 ops/s
+Iteration  10: 108957.055 ops/s
+Iteration  11: 109059.692 ops/s
+Iteration  12: 109165.153 ops/s
+Iteration  13: 109369.733 ops/s
+Iteration  14: 109043.068 ops/s
+Iteration  15: 109241.738 ops/s
+Iteration  16: 109272.552 ops/s
+Iteration  17: 109710.187 ops/s
+Iteration  18: 108796.017 ops/s
+Iteration  19: 108191.844 ops/s
+Iteration  20: 108899.818 ops/s
+Iteration  21: 108409.441 ops/s
+Iteration  22: 108941.985 ops/s
+Iteration  23: 108107.153 ops/s
+Iteration  24: 108866.266 ops/s
+Iteration  25: 108956.713 ops/s
+Iteration  26: 108918.261 ops/s
+Iteration  27: 108876.696 ops/s
+Iteration  28: 108630.754 ops/s
+Iteration  29: 109325.693 ops/s
+Iteration  30: 109217.030 ops/s
+
+
+Result "zipkin2.clusters.Cluster_17._Benchmark.benchmark_Cluster_17":
+  108451.031 ±(99.9%) 596.982 ops/s [Average]
+  (min, avg, max) = (106458.185, 108451.031, 109710.187), stdev = 893.535
+  CI (99.9%): [107854.049, 109048.014] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                    Mode  Cnt       Score     Error  Units
+Cluster_17._Benchmark.benchmark_Cluster_17  thrpt   30  108451.031 ± 596.982  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_18._Benchmark.benchmark_Cluster_18$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_18._Benchmark.benchmark_Cluster_18
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 34910.478 ops/s
+# Warmup Iteration   2: 45760.742 ops/s
+# Warmup Iteration   3: 85058.243 ops/s
+# Warmup Iteration   4: 98358.877 ops/s
+# Warmup Iteration   5: 100745.537 ops/s
+# Warmup Iteration   6: 101391.655 ops/s
+# Warmup Iteration   7: 100837.270 ops/s
+# Warmup Iteration   8: 78091.674 ops/s
+# Warmup Iteration   9: 92926.939 ops/s
+# Warmup Iteration  10: 101141.994 ops/s
+# Warmup Iteration  11: 101595.783 ops/s
+# Warmup Iteration  12: 101470.716 ops/s
+# Warmup Iteration  13: 100900.784 ops/s
+# Warmup Iteration  14: 100389.065 ops/s
+# Warmup Iteration  15: 100919.618 ops/s
+# Warmup Iteration  16: 101332.728 ops/s
+# Warmup Iteration  17: 101179.908 ops/s
+# Warmup Iteration  18: 101287.368 ops/s
+# Warmup Iteration  19: 100232.964 ops/s
+# Warmup Iteration  20: 100385.737 ops/s
+# Warmup Iteration  21: 101680.486 ops/s
+# Warmup Iteration  22: 101906.862 ops/s
+# Warmup Iteration  23: 101490.372 ops/s
+# Warmup Iteration  24: 101140.123 ops/s
+# Warmup Iteration  25: 100000.743 ops/s
+# Warmup Iteration  26: 101409.400 ops/s
+# Warmup Iteration  27: 101579.344 ops/s
+# Warmup Iteration  28: 101676.409 ops/s
+# Warmup Iteration  29: 101597.328 ops/s
+# Warmup Iteration  30: 101417.201 ops/s
+Iteration   1: 102829.189 ops/s
+Iteration   2: 102191.034 ops/s
+Iteration   3: 100579.296 ops/s
+Iteration   4: 101402.770 ops/s
+Iteration   5: 101790.646 ops/s
+Iteration   6: 101926.705 ops/s
+Iteration   7: 101959.278 ops/s
+Iteration   8: 100652.401 ops/s
+Iteration   9: 101340.426 ops/s
+Iteration  10: 100799.722 ops/s
+Iteration  11: 101271.349 ops/s
+Iteration  12: 101259.535 ops/s
+Iteration  13: 101284.581 ops/s
+Iteration  14: 99741.830 ops/s
+Iteration  15: 101320.331 ops/s
+Iteration  16: 101912.225 ops/s
+Iteration  17: 101231.016 ops/s
+Iteration  18: 100853.701 ops/s
+Iteration  19: 100699.912 ops/s
+Iteration  20: 100798.266 ops/s
+Iteration  21: 102128.757 ops/s
+Iteration  22: 101172.821 ops/s
+Iteration  23: 101196.245 ops/s
+Iteration  24: 101877.967 ops/s
+Iteration  25: 101375.600 ops/s
+Iteration  26: 100908.826 ops/s
+Iteration  27: 101036.213 ops/s
+Iteration  28: 101156.483 ops/s
+Iteration  29: 101382.604 ops/s
+Iteration  30: 101341.582 ops/s
+
+
+Result "zipkin2.clusters.Cluster_18._Benchmark.benchmark_Cluster_18":
+  101314.044 ±(99.9%) 398.610 ops/s [Average]
+  (min, avg, max) = (99741.830, 101314.044, 102829.189), stdev = 596.621
+  CI (99.9%): [100915.433, 101712.654] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                    Mode  Cnt       Score     Error  Units
+Cluster_18._Benchmark.benchmark_Cluster_18  thrpt   30  101314.044 ± 398.610  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_19._Benchmark.benchmark_Cluster_19$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_19._Benchmark.benchmark_Cluster_19
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 37395.732 ops/s
+# Warmup Iteration   2: 47874.029 ops/s
+# Warmup Iteration   3: 90077.007 ops/s
+# Warmup Iteration   4: 98201.454 ops/s
+# Warmup Iteration   5: 105457.233 ops/s
+# Warmup Iteration   6: 106784.072 ops/s
+# Warmup Iteration   7: 105322.976 ops/s
+# Warmup Iteration   8: 86024.026 ops/s
+# Warmup Iteration   9: 94314.881 ops/s
+# Warmup Iteration  10: 107076.344 ops/s
+# Warmup Iteration  11: 107151.166 ops/s
+# Warmup Iteration  12: 107227.532 ops/s
+# Warmup Iteration  13: 107057.994 ops/s
+# Warmup Iteration  14: 107374.471 ops/s
+# Warmup Iteration  15: 107180.586 ops/s
+# Warmup Iteration  16: 106893.414 ops/s
+# Warmup Iteration  17: 106254.096 ops/s
+# Warmup Iteration  18: 104986.115 ops/s
+# Warmup Iteration  19: 106358.207 ops/s
+# Warmup Iteration  20: 107098.278 ops/s
+# Warmup Iteration  21: 106115.608 ops/s
+# Warmup Iteration  22: 105303.039 ops/s
+# Warmup Iteration  23: 106077.722 ops/s
+# Warmup Iteration  24: 106915.885 ops/s
+# Warmup Iteration  25: 107319.494 ops/s
+# Warmup Iteration  26: 106920.959 ops/s
+# Warmup Iteration  27: 107469.934 ops/s
+# Warmup Iteration  28: 106384.799 ops/s
+# Warmup Iteration  29: 106533.378 ops/s
+# Warmup Iteration  30: 105544.984 ops/s
+Iteration   1: 106378.948 ops/s
+Iteration   2: 106340.468 ops/s
+Iteration   3: 106212.573 ops/s
+Iteration   4: 104606.449 ops/s
+Iteration   5: 106299.926 ops/s
+Iteration   6: 106017.444 ops/s
+Iteration   7: 106057.369 ops/s
+Iteration   8: 104783.908 ops/s
+Iteration   9: 105976.776 ops/s
+Iteration  10: 107961.997 ops/s
+Iteration  11: 107261.476 ops/s
+Iteration  12: 108104.644 ops/s
+Iteration  13: 105710.718 ops/s
+Iteration  14: 105878.098 ops/s
+Iteration  15: 106388.703 ops/s
+Iteration  16: 104906.172 ops/s
+Iteration  17: 106535.040 ops/s
+Iteration  18: 105635.815 ops/s
+Iteration  19: 106360.890 ops/s
+Iteration  20: 107776.932 ops/s
+Iteration  21: 107153.372 ops/s
+Iteration  22: 106899.193 ops/s
+Iteration  23: 106459.653 ops/s
+Iteration  24: 106509.984 ops/s
+Iteration  25: 107317.358 ops/s
+Iteration  26: 106710.693 ops/s
+Iteration  27: 106991.259 ops/s
+Iteration  28: 105253.859 ops/s
+Iteration  29: 105698.206 ops/s
+Iteration  30: 107401.561 ops/s
+
+
+Result "zipkin2.clusters.Cluster_19._Benchmark.benchmark_Cluster_19":
+  106386.316 ±(99.9%) 592.546 ops/s [Average]
+  (min, avg, max) = (104606.449, 106386.316, 108104.644), stdev = 886.896
+  CI (99.9%): [105793.770, 106978.862] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                    Mode  Cnt       Score     Error  Units
+Cluster_19._Benchmark.benchmark_Cluster_19  thrpt   30  106386.316 ± 592.546  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_2._Benchmark.benchmark_Cluster_2$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_2._Benchmark.benchmark_Cluster_2
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 42065.842 ops/s
+# Warmup Iteration   2: 59294.922 ops/s
+# Warmup Iteration   3: 95513.024 ops/s
+# Warmup Iteration   4: 121376.331 ops/s
+# Warmup Iteration   5: 121749.399 ops/s
+# Warmup Iteration   6: 122075.745 ops/s
+# Warmup Iteration   7: 123014.645 ops/s
+# Warmup Iteration   8: 122084.155 ops/s
+# Warmup Iteration   9: 123458.785 ops/s
+# Warmup Iteration  10: 87277.279 ops/s
+# Warmup Iteration  11: 125376.418 ops/s
+# Warmup Iteration  12: 124509.278 ops/s
+# Warmup Iteration  13: 124565.873 ops/s
+# Warmup Iteration  14: 124348.122 ops/s
+# Warmup Iteration  15: 124791.108 ops/s
+# Warmup Iteration  16: 124050.252 ops/s
+# Warmup Iteration  17: 124578.313 ops/s
+# Warmup Iteration  18: 124163.744 ops/s
+# Warmup Iteration  19: 123971.386 ops/s
+# Warmup Iteration  20: 125094.384 ops/s
+# Warmup Iteration  21: 126216.616 ops/s
+# Warmup Iteration  22: 124957.253 ops/s
+# Warmup Iteration  23: 123178.910 ops/s
+# Warmup Iteration  24: 124289.829 ops/s
+# Warmup Iteration  25: 123593.176 ops/s
+# Warmup Iteration  26: 124627.036 ops/s
+# Warmup Iteration  27: 124516.908 ops/s
+# Warmup Iteration  28: 126003.869 ops/s
+# Warmup Iteration  29: 124999.231 ops/s
+# Warmup Iteration  30: 125582.285 ops/s
+Iteration   1: 125298.487 ops/s
+Iteration   2: 123630.398 ops/s
+Iteration   3: 124992.460 ops/s
+Iteration   4: 124756.919 ops/s
+Iteration   5: 125886.365 ops/s
+Iteration   6: 125631.619 ops/s
+Iteration   7: 125449.507 ops/s
+Iteration   8: 125462.150 ops/s
+Iteration   9: 125383.383 ops/s
+Iteration  10: 124766.930 ops/s
+Iteration  11: 125725.750 ops/s
+Iteration  12: 125118.111 ops/s
+Iteration  13: 125936.387 ops/s
+Iteration  14: 125873.346 ops/s
+Iteration  15: 125079.417 ops/s
+Iteration  16: 124877.758 ops/s
+Iteration  17: 125412.637 ops/s
+Iteration  18: 125764.954 ops/s
+Iteration  19: 125645.178 ops/s
+Iteration  20: 125347.448 ops/s
+Iteration  21: 126168.906 ops/s
+Iteration  22: 124948.624 ops/s
+Iteration  23: 125559.153 ops/s
+Iteration  24: 125527.322 ops/s
+Iteration  25: 124996.581 ops/s
+Iteration  26: 125386.208 ops/s
+Iteration  27: 124103.700 ops/s
+Iteration  28: 125644.715 ops/s
+Iteration  29: 125437.128 ops/s
+Iteration  30: 124302.399 ops/s
+
+
+Result "zipkin2.clusters.Cluster_2._Benchmark.benchmark_Cluster_2":
+  125270.465 ±(99.9%) 374.885 ops/s [Average]
+  (min, avg, max) = (123630.398, 125270.465, 126168.906), stdev = 561.111
+  CI (99.9%): [124895.579, 125645.350] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                  Mode  Cnt       Score     Error  Units
+Cluster_2._Benchmark.benchmark_Cluster_2  thrpt   30  125270.465 ± 374.885  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_20._Benchmark.benchmark_Cluster_20$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_20._Benchmark.benchmark_Cluster_20
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 61908.441 ops/s
+# Warmup Iteration   2: 82478.682 ops/s
+# Warmup Iteration   3: 152577.936 ops/s
+# Warmup Iteration   4: 167408.590 ops/s
+# Warmup Iteration   5: 168948.381 ops/s
+# Warmup Iteration   6: 170139.850 ops/s
+# Warmup Iteration   7: 170123.101 ops/s
+# Warmup Iteration   8: 147681.658 ops/s
+# Warmup Iteration   9: 141426.491 ops/s
+# Warmup Iteration  10: 169365.163 ops/s
+# Warmup Iteration  11: 168770.950 ops/s
+# Warmup Iteration  12: 169922.855 ops/s
+# Warmup Iteration  13: 170680.777 ops/s
+# Warmup Iteration  14: 168899.389 ops/s
+# Warmup Iteration  15: 170791.094 ops/s
+# Warmup Iteration  16: 169523.119 ops/s
+# Warmup Iteration  17: 173340.338 ops/s
+# Warmup Iteration  18: 174228.821 ops/s
+# Warmup Iteration  19: 172680.392 ops/s
+# Warmup Iteration  20: 172449.996 ops/s
+# Warmup Iteration  21: 172573.707 ops/s
+# Warmup Iteration  22: 173400.850 ops/s
+# Warmup Iteration  23: 173920.181 ops/s
+# Warmup Iteration  24: 173703.814 ops/s
+# Warmup Iteration  25: 173926.614 ops/s
+# Warmup Iteration  26: 173092.467 ops/s
+# Warmup Iteration  27: 173645.730 ops/s
+# Warmup Iteration  28: 173514.810 ops/s
+# Warmup Iteration  29: 172322.589 ops/s
+# Warmup Iteration  30: 172653.292 ops/s
+Iteration   1: 171637.737 ops/s
+Iteration   2: 172321.623 ops/s
+Iteration   3: 173931.602 ops/s
+Iteration   4: 173423.442 ops/s
+Iteration   5: 171293.491 ops/s
+Iteration   6: 172447.258 ops/s
+Iteration   7: 173127.351 ops/s
+Iteration   8: 174307.380 ops/s
+Iteration   9: 172921.108 ops/s
+Iteration  10: 174014.590 ops/s
+Iteration  11: 175155.051 ops/s
+Iteration  12: 173852.104 ops/s
+Iteration  13: 174592.236 ops/s
+Iteration  14: 174486.984 ops/s
+Iteration  15: 173316.337 ops/s
+Iteration  16: 175386.182 ops/s
+Iteration  17: 173528.834 ops/s
+Iteration  18: 174240.058 ops/s
+Iteration  19: 172812.145 ops/s
+Iteration  20: 172298.292 ops/s
+Iteration  21: 172745.355 ops/s
+Iteration  22: 173605.979 ops/s
+Iteration  23: 173930.867 ops/s
+Iteration  24: 175659.051 ops/s
+Iteration  25: 175506.788 ops/s
+Iteration  26: 175385.899 ops/s
+Iteration  27: 172764.849 ops/s
+Iteration  28: 174783.957 ops/s
+Iteration  29: 174010.006 ops/s
+Iteration  30: 172152.761 ops/s
+
+
+Result "zipkin2.clusters.Cluster_20._Benchmark.benchmark_Cluster_20":
+  173654.644 ±(99.9%) 785.269 ops/s [Average]
+  (min, avg, max) = (171293.491, 173654.644, 175659.051), stdev = 1175.353
+  CI (99.9%): [172869.375, 174439.912] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                    Mode  Cnt       Score     Error  Units
+Cluster_20._Benchmark.benchmark_Cluster_20  thrpt   30  173654.644 ± 785.269  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_21._Benchmark.benchmark_Cluster_21$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_21._Benchmark.benchmark_Cluster_21
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 37139.125 ops/s
+# Warmup Iteration   2: 55755.837 ops/s
+# Warmup Iteration   3: 111137.211 ops/s
+# Warmup Iteration   4: 126149.528 ops/s
+# Warmup Iteration   5: 128704.632 ops/s
+# Warmup Iteration   6: 129562.195 ops/s
+# Warmup Iteration   7: 129750.580 ops/s
+# Warmup Iteration   8: 91778.780 ops/s
+# Warmup Iteration   9: 130931.381 ops/s
+# Warmup Iteration  10: 130039.346 ops/s
+# Warmup Iteration  11: 130486.671 ops/s
+# Warmup Iteration  12: 130099.369 ops/s
+# Warmup Iteration  13: 130372.473 ops/s
+# Warmup Iteration  14: 130719.210 ops/s
+# Warmup Iteration  15: 129602.538 ops/s
+# Warmup Iteration  16: 128791.548 ops/s
+# Warmup Iteration  17: 130681.121 ops/s
+# Warmup Iteration  18: 129850.490 ops/s
+# Warmup Iteration  19: 130674.695 ops/s
+# Warmup Iteration  20: 131257.484 ops/s
+# Warmup Iteration  21: 131798.749 ops/s
+# Warmup Iteration  22: 131320.751 ops/s
+# Warmup Iteration  23: 131102.091 ops/s
+# Warmup Iteration  24: 131317.035 ops/s
+# Warmup Iteration  25: 131466.214 ops/s
+# Warmup Iteration  26: 131152.457 ops/s
+# Warmup Iteration  27: 131304.985 ops/s
+# Warmup Iteration  28: 132009.736 ops/s
+# Warmup Iteration  29: 132374.149 ops/s
+# Warmup Iteration  30: 131698.083 ops/s
+Iteration   1: 131372.679 ops/s
+Iteration   2: 131487.115 ops/s
+Iteration   3: 131879.503 ops/s
+Iteration   4: 131022.939 ops/s
+Iteration   5: 131209.067 ops/s
+Iteration   6: 131257.049 ops/s
+Iteration   7: 130351.866 ops/s
+Iteration   8: 130883.788 ops/s
+Iteration   9: 129971.634 ops/s
+Iteration  10: 130537.392 ops/s
+Iteration  11: 130785.498 ops/s
+Iteration  12: 130945.760 ops/s
+Iteration  13: 130788.427 ops/s
+Iteration  14: 131109.249 ops/s
+Iteration  15: 132115.421 ops/s
+Iteration  16: 131439.103 ops/s
+Iteration  17: 131872.297 ops/s
+Iteration  18: 131697.229 ops/s
+Iteration  19: 131644.422 ops/s
+Iteration  20: 131656.643 ops/s
+Iteration  21: 131304.773 ops/s
+Iteration  22: 130676.614 ops/s
+Iteration  23: 131497.007 ops/s
+Iteration  24: 130833.625 ops/s
+Iteration  25: 130589.883 ops/s
+Iteration  26: 130860.254 ops/s
+Iteration  27: 131600.302 ops/s
+Iteration  28: 130230.167 ops/s
+Iteration  29: 130435.492 ops/s
+Iteration  30: 131122.068 ops/s
+
+
+Result "zipkin2.clusters.Cluster_21._Benchmark.benchmark_Cluster_21":
+  131105.909 ±(99.9%) 355.512 ops/s [Average]
+  (min, avg, max) = (129971.634, 131105.909, 132115.421), stdev = 532.114
+  CI (99.9%): [130750.397, 131461.421] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                    Mode  Cnt       Score     Error  Units
+Cluster_21._Benchmark.benchmark_Cluster_21  thrpt   30  131105.909 ± 355.512  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_3._Benchmark.benchmark_Cluster_3$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_3._Benchmark.benchmark_Cluster_3
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 41465.642 ops/s
+# Warmup Iteration   2: 58971.233 ops/s
+# Warmup Iteration   3: 85096.549 ops/s
+# Warmup Iteration   4: 118942.669 ops/s
+# Warmup Iteration   5: 115359.225 ops/s
+# Warmup Iteration   6: 118584.913 ops/s
+# Warmup Iteration   7: 117413.366 ops/s
+# Warmup Iteration   8: 117584.339 ops/s
+# Warmup Iteration   9: 118714.214 ops/s
+# Warmup Iteration  10: 93023.069 ops/s
+# Warmup Iteration  11: 108760.019 ops/s
+# Warmup Iteration  12: 119016.263 ops/s
+# Warmup Iteration  13: 119314.945 ops/s
+# Warmup Iteration  14: 119916.845 ops/s
+# Warmup Iteration  15: 119442.554 ops/s
+# Warmup Iteration  16: 120870.077 ops/s
+# Warmup Iteration  17: 119292.118 ops/s
+# Warmup Iteration  18: 119742.404 ops/s
+# Warmup Iteration  19: 118550.551 ops/s
+# Warmup Iteration  20: 118554.049 ops/s
+# Warmup Iteration  21: 118927.610 ops/s
+# Warmup Iteration  22: 119039.620 ops/s
+# Warmup Iteration  23: 120008.735 ops/s
+# Warmup Iteration  24: 119889.524 ops/s
+# Warmup Iteration  25: 118993.350 ops/s
+# Warmup Iteration  26: 119921.242 ops/s
+# Warmup Iteration  27: 118496.715 ops/s
+# Warmup Iteration  28: 118985.148 ops/s
+# Warmup Iteration  29: 118897.075 ops/s
+# Warmup Iteration  30: 118560.990 ops/s
+Iteration   1: 118363.667 ops/s
+Iteration   2: 118879.994 ops/s
+Iteration   3: 119708.403 ops/s
+Iteration   4: 119419.668 ops/s
+Iteration   5: 118806.348 ops/s
+Iteration   6: 119880.065 ops/s
+Iteration   7: 119716.721 ops/s
+Iteration   8: 120784.625 ops/s
+Iteration   9: 118625.594 ops/s
+Iteration  10: 118561.772 ops/s
+Iteration  11: 118550.540 ops/s
+Iteration  12: 117789.958 ops/s
+Iteration  13: 118232.294 ops/s
+Iteration  14: 118254.305 ops/s
+Iteration  15: 117108.205 ops/s
+Iteration  16: 118800.063 ops/s
+Iteration  17: 120147.663 ops/s
+Iteration  18: 119409.127 ops/s
+Iteration  19: 119023.845 ops/s
+Iteration  20: 117628.941 ops/s
+Iteration  21: 118280.497 ops/s
+Iteration  22: 119954.636 ops/s
+Iteration  23: 120549.309 ops/s
+Iteration  24: 118604.664 ops/s
+Iteration  25: 119170.439 ops/s
+Iteration  26: 121547.945 ops/s
+Iteration  27: 120870.115 ops/s
+Iteration  28: 121569.528 ops/s
+Iteration  29: 121382.012 ops/s
+Iteration  30: 120664.554 ops/s
+
+
+Result "zipkin2.clusters.Cluster_3._Benchmark.benchmark_Cluster_3":
+  119342.850 ±(99.9%) 796.925 ops/s [Average]
+  (min, avg, max) = (117108.205, 119342.850, 121569.528), stdev = 1192.800
+  CI (99.9%): [118545.925, 120139.775] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                  Mode  Cnt       Score     Error  Units
+Cluster_3._Benchmark.benchmark_Cluster_3  thrpt   30  119342.850 ± 796.925  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_4._Benchmark.benchmark_Cluster_4$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_4._Benchmark.benchmark_Cluster_4
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 54225.409 ops/s
+# Warmup Iteration   2: 74554.658 ops/s
+# Warmup Iteration   3: 119749.603 ops/s
+# Warmup Iteration   4: 146257.644 ops/s
+# Warmup Iteration   5: 146018.856 ops/s
+# Warmup Iteration   6: 148517.068 ops/s
+# Warmup Iteration   7: 147501.795 ops/s
+# Warmup Iteration   8: 147421.496 ops/s
+# Warmup Iteration   9: 144831.141 ops/s
+# Warmup Iteration  10: 109566.344 ops/s
+# Warmup Iteration  11: 148832.228 ops/s
+# Warmup Iteration  12: 149612.861 ops/s
+# Warmup Iteration  13: 149160.622 ops/s
+# Warmup Iteration  14: 148956.446 ops/s
+# Warmup Iteration  15: 148794.164 ops/s
+# Warmup Iteration  16: 148894.913 ops/s
+# Warmup Iteration  17: 147889.211 ops/s
+# Warmup Iteration  18: 149044.319 ops/s
+# Warmup Iteration  19: 149160.037 ops/s
+# Warmup Iteration  20: 148904.217 ops/s
+# Warmup Iteration  21: 148682.222 ops/s
+# Warmup Iteration  22: 148252.711 ops/s
+# Warmup Iteration  23: 146508.526 ops/s
+# Warmup Iteration  24: 147190.282 ops/s
+# Warmup Iteration  25: 147923.630 ops/s
+# Warmup Iteration  26: 148151.255 ops/s
+# Warmup Iteration  27: 147384.139 ops/s
+# Warmup Iteration  28: 148223.190 ops/s
+# Warmup Iteration  29: 148437.702 ops/s
+# Warmup Iteration  30: 146902.852 ops/s
+Iteration   1: 146464.048 ops/s
+Iteration   2: 145261.754 ops/s
+Iteration   3: 147013.452 ops/s
+Iteration   4: 146821.103 ops/s
+Iteration   5: 147443.988 ops/s
+Iteration   6: 147370.619 ops/s
+Iteration   7: 147359.958 ops/s
+Iteration   8: 148166.487 ops/s
+Iteration   9: 146542.172 ops/s
+Iteration  10: 146367.945 ops/s
+Iteration  11: 146581.702 ops/s
+Iteration  12: 146215.844 ops/s
+Iteration  13: 145479.025 ops/s
+Iteration  14: 146515.120 ops/s
+Iteration  15: 148635.033 ops/s
+Iteration  16: 147848.827 ops/s
+Iteration  17: 145262.696 ops/s
+Iteration  18: 147309.032 ops/s
+Iteration  19: 147490.045 ops/s
+Iteration  20: 148385.355 ops/s
+Iteration  21: 147191.338 ops/s
+Iteration  22: 147224.120 ops/s
+Iteration  23: 147252.803 ops/s
+Iteration  24: 148149.293 ops/s
+Iteration  25: 147011.380 ops/s
+Iteration  26: 148207.370 ops/s
+Iteration  27: 147679.406 ops/s
+Iteration  28: 147586.507 ops/s
+Iteration  29: 147118.702 ops/s
+Iteration  30: 148596.460 ops/s
+
+
+Result "zipkin2.clusters.Cluster_4._Benchmark.benchmark_Cluster_4":
+  147151.719 ±(99.9%) 599.986 ops/s [Average]
+  (min, avg, max) = (145261.754, 147151.719, 148635.033), stdev = 898.031
+  CI (99.9%): [146551.733, 147751.705] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                  Mode  Cnt       Score     Error  Units
+Cluster_4._Benchmark.benchmark_Cluster_4  thrpt   30  147151.719 ± 599.986  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_5._Benchmark.benchmark_Cluster_5$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_5._Benchmark.benchmark_Cluster_5
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 42416.141 ops/s
+# Warmup Iteration   2: 50679.114 ops/s
+# Warmup Iteration   3: 79922.167 ops/s
+# Warmup Iteration   4: 105836.502 ops/s
+# Warmup Iteration   5: 104424.499 ops/s
+# Warmup Iteration   6: 104479.283 ops/s
+# Warmup Iteration   7: 104896.354 ops/s
+# Warmup Iteration   8: 105058.336 ops/s
+# Warmup Iteration   9: 101704.666 ops/s
+# Warmup Iteration  10: 73462.331 ops/s
+# Warmup Iteration  11: 106286.119 ops/s
+# Warmup Iteration  12: 105646.524 ops/s
+# Warmup Iteration  13: 105964.820 ops/s
+# Warmup Iteration  14: 106190.819 ops/s
+# Warmup Iteration  15: 105524.437 ops/s
+# Warmup Iteration  16: 105673.710 ops/s
+# Warmup Iteration  17: 105400.403 ops/s
+# Warmup Iteration  18: 105170.424 ops/s
+# Warmup Iteration  19: 105691.584 ops/s
+# Warmup Iteration  20: 106009.633 ops/s
+# Warmup Iteration  21: 104405.575 ops/s
+# Warmup Iteration  22: 104785.336 ops/s
+# Warmup Iteration  23: 105744.861 ops/s
+# Warmup Iteration  24: 105153.303 ops/s
+# Warmup Iteration  25: 105823.666 ops/s
+# Warmup Iteration  26: 104237.302 ops/s
+# Warmup Iteration  27: 106126.879 ops/s
+# Warmup Iteration  28: 105949.854 ops/s
+# Warmup Iteration  29: 106250.502 ops/s
+# Warmup Iteration  30: 106604.467 ops/s
+Iteration   1: 106097.182 ops/s
+Iteration   2: 106768.248 ops/s
+Iteration   3: 105466.337 ops/s
+Iteration   4: 107089.247 ops/s
+Iteration   5: 106944.952 ops/s
+Iteration   6: 106065.728 ops/s
+Iteration   7: 106665.834 ops/s
+Iteration   8: 107353.718 ops/s
+Iteration   9: 107217.116 ops/s
+Iteration  10: 106272.320 ops/s
+Iteration  11: 106126.081 ops/s
+Iteration  12: 106065.293 ops/s
+Iteration  13: 106233.156 ops/s
+Iteration  14: 105610.809 ops/s
+Iteration  15: 105879.321 ops/s
+Iteration  16: 105721.401 ops/s
+Iteration  17: 106622.086 ops/s
+Iteration  18: 105420.126 ops/s
+Iteration  19: 104657.731 ops/s
+Iteration  20: 106272.843 ops/s
+Iteration  21: 106191.549 ops/s
+Iteration  22: 105441.796 ops/s
+Iteration  23: 105818.887 ops/s
+Iteration  24: 105354.310 ops/s
+Iteration  25: 104979.940 ops/s
+Iteration  26: 105409.183 ops/s
+Iteration  27: 106165.133 ops/s
+Iteration  28: 106473.909 ops/s
+Iteration  29: 107290.821 ops/s
+Iteration  30: 106343.721 ops/s
+
+
+Result "zipkin2.clusters.Cluster_5._Benchmark.benchmark_Cluster_5":
+  106133.959 ±(99.9%) 454.198 ops/s [Average]
+  (min, avg, max) = (104657.731, 106133.959, 107353.718), stdev = 679.822
+  CI (99.9%): [105679.762, 106588.157] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                  Mode  Cnt       Score     Error  Units
+Cluster_5._Benchmark.benchmark_Cluster_5  thrpt   30  106133.959 ± 454.198  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_6._Benchmark.benchmark_Cluster_6$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_6._Benchmark.benchmark_Cluster_6
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 47513.471 ops/s
+# Warmup Iteration   2: 57050.039 ops/s
+# Warmup Iteration   3: 87123.899 ops/s
+# Warmup Iteration   4: 120118.950 ops/s
+# Warmup Iteration   5: 123024.225 ops/s
+# Warmup Iteration   6: 122577.944 ops/s
+# Warmup Iteration   7: 124015.190 ops/s
+# Warmup Iteration   8: 124429.931 ops/s
+# Warmup Iteration   9: 108351.514 ops/s
+# Warmup Iteration  10: 94742.202 ops/s
+# Warmup Iteration  11: 122231.137 ops/s
+# Warmup Iteration  12: 123708.326 ops/s
+# Warmup Iteration  13: 124305.167 ops/s
+# Warmup Iteration  14: 123353.425 ops/s
+# Warmup Iteration  15: 126385.776 ops/s
+# Warmup Iteration  16: 123643.250 ops/s
+# Warmup Iteration  17: 123968.654 ops/s
+# Warmup Iteration  18: 123448.769 ops/s
+# Warmup Iteration  19: 122148.518 ops/s
+# Warmup Iteration  20: 121893.158 ops/s
+# Warmup Iteration  21: 122204.344 ops/s
+# Warmup Iteration  22: 122628.542 ops/s
+# Warmup Iteration  23: 122601.585 ops/s
+# Warmup Iteration  24: 122666.824 ops/s
+# Warmup Iteration  25: 122957.342 ops/s
+# Warmup Iteration  26: 123481.993 ops/s
+# Warmup Iteration  27: 123011.113 ops/s
+# Warmup Iteration  28: 122461.519 ops/s
+# Warmup Iteration  29: 123562.725 ops/s
+# Warmup Iteration  30: 121476.015 ops/s
+Iteration   1: 123652.235 ops/s
+Iteration   2: 121407.586 ops/s
+Iteration   3: 121753.638 ops/s
+Iteration   4: 121840.687 ops/s
+Iteration   5: 121526.096 ops/s
+Iteration   6: 122644.219 ops/s
+Iteration   7: 123606.693 ops/s
+Iteration   8: 124314.743 ops/s
+Iteration   9: 122432.040 ops/s
+Iteration  10: 122690.985 ops/s
+Iteration  11: 123068.977 ops/s
+Iteration  12: 123059.375 ops/s
+Iteration  13: 122520.095 ops/s
+Iteration  14: 122303.238 ops/s
+Iteration  15: 122878.213 ops/s
+Iteration  16: 122346.316 ops/s
+Iteration  17: 122637.363 ops/s
+Iteration  18: 121963.786 ops/s
+Iteration  19: 124218.171 ops/s
+Iteration  20: 123018.729 ops/s
+Iteration  21: 122881.506 ops/s
+Iteration  22: 122821.625 ops/s
+Iteration  23: 122570.852 ops/s
+Iteration  24: 123165.307 ops/s
+Iteration  25: 122416.298 ops/s
+Iteration  26: 123239.418 ops/s
+Iteration  27: 122638.602 ops/s
+Iteration  28: 122700.345 ops/s
+Iteration  29: 122792.135 ops/s
+Iteration  30: 122817.726 ops/s
+
+
+Result "zipkin2.clusters.Cluster_6._Benchmark.benchmark_Cluster_6":
+  122730.900 ±(99.9%) 452.589 ops/s [Average]
+  (min, avg, max) = (121407.586, 122730.900, 124314.743), stdev = 677.414
+  CI (99.9%): [122278.311, 123183.489] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                  Mode  Cnt       Score     Error  Units
+Cluster_6._Benchmark.benchmark_Cluster_6  thrpt   30  122730.900 ± 452.589  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_7._Benchmark.benchmark_Cluster_7$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_7._Benchmark.benchmark_Cluster_7
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 66164.155 ops/s
+# Warmup Iteration   2: 86180.805 ops/s
+# Warmup Iteration   3: 169708.440 ops/s
+# Warmup Iteration   4: 167287.129 ops/s
+# Warmup Iteration   5: 180473.145 ops/s
+# Warmup Iteration   6: 181773.005 ops/s
+# Warmup Iteration   7: 183473.348 ops/s
+# Warmup Iteration   8: 173891.442 ops/s
+# Warmup Iteration   9: 141578.323 ops/s
+# Warmup Iteration  10: 188443.204 ops/s
+# Warmup Iteration  11: 188612.048 ops/s
+# Warmup Iteration  12: 188985.667 ops/s
+# Warmup Iteration  13: 185637.537 ops/s
+# Warmup Iteration  14: 188269.621 ops/s
+# Warmup Iteration  15: 186379.616 ops/s
+# Warmup Iteration  16: 187545.653 ops/s
+# Warmup Iteration  17: 186980.971 ops/s
+# Warmup Iteration  18: 187184.891 ops/s
+# Warmup Iteration  19: 188315.682 ops/s
+# Warmup Iteration  20: 187440.265 ops/s
+# Warmup Iteration  21: 187765.617 ops/s
+# Warmup Iteration  22: 187004.979 ops/s
+# Warmup Iteration  23: 186925.514 ops/s
+# Warmup Iteration  24: 188473.916 ops/s
+# Warmup Iteration  25: 188123.130 ops/s
+# Warmup Iteration  26: 187293.168 ops/s
+# Warmup Iteration  27: 187426.343 ops/s
+# Warmup Iteration  28: 186970.928 ops/s
+# Warmup Iteration  29: 188123.251 ops/s
+# Warmup Iteration  30: 188348.718 ops/s
+Iteration   1: 186695.649 ops/s
+Iteration   2: 188037.581 ops/s
+Iteration   3: 188206.324 ops/s
+Iteration   4: 189717.977 ops/s
+Iteration   5: 187443.815 ops/s
+Iteration   6: 188512.287 ops/s
+Iteration   7: 188920.493 ops/s
+Iteration   8: 188300.505 ops/s
+Iteration   9: 188932.455 ops/s
+Iteration  10: 187378.165 ops/s
+Iteration  11: 187798.827 ops/s
+Iteration  12: 188040.267 ops/s
+Iteration  13: 187915.869 ops/s
+Iteration  14: 186938.256 ops/s
+Iteration  15: 186627.351 ops/s
+Iteration  16: 187854.594 ops/s
+Iteration  17: 186551.326 ops/s
+Iteration  18: 188224.497 ops/s
+Iteration  19: 188585.142 ops/s
+Iteration  20: 187600.112 ops/s
+Iteration  21: 187237.113 ops/s
+Iteration  22: 187998.291 ops/s
+Iteration  23: 188718.306 ops/s
+Iteration  24: 189047.832 ops/s
+Iteration  25: 188300.150 ops/s
+Iteration  26: 186948.742 ops/s
+Iteration  27: 184917.736 ops/s
+Iteration  28: 186277.648 ops/s
+Iteration  29: 185843.295 ops/s
+Iteration  30: 185862.416 ops/s
+
+
+Result "zipkin2.clusters.Cluster_7._Benchmark.benchmark_Cluster_7":
+  187647.767 ±(99.9%) 729.269 ops/s [Average]
+  (min, avg, max) = (184917.736, 187647.767, 189717.977), stdev = 1091.535
+  CI (99.9%): [186918.498, 188377.036] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                  Mode  Cnt       Score     Error  Units
+Cluster_7._Benchmark.benchmark_Cluster_7  thrpt   30  187647.767 ± 729.269  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_8._Benchmark.benchmark_Cluster_8$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_8._Benchmark.benchmark_Cluster_8
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 38812.004 ops/s
+# Warmup Iteration   2: 63725.883 ops/s
+# Warmup Iteration   3: 97667.072 ops/s
+# Warmup Iteration   4: 97060.494 ops/s
+# Warmup Iteration   5: 97719.131 ops/s
+# Warmup Iteration   6: 81642.538 ops/s
+# Warmup Iteration   7: 88284.224 ops/s
+# Warmup Iteration   8: 97512.407 ops/s
+# Warmup Iteration   9: 98674.857 ops/s
+# Warmup Iteration  10: 97271.349 ops/s
+# Warmup Iteration  11: 96885.305 ops/s
+# Warmup Iteration  12: 97402.443 ops/s
+# Warmup Iteration  13: 97130.685 ops/s
+# Warmup Iteration  14: 99582.324 ops/s
+# Warmup Iteration  15: 101084.588 ops/s
+# Warmup Iteration  16: 98614.856 ops/s
+# Warmup Iteration  17: 98664.666 ops/s
+# Warmup Iteration  18: 99659.864 ops/s
+# Warmup Iteration  19: 99690.273 ops/s
+# Warmup Iteration  20: 100423.061 ops/s
+# Warmup Iteration  21: 100337.622 ops/s
+# Warmup Iteration  22: 99573.142 ops/s
+# Warmup Iteration  23: 100929.980 ops/s
+# Warmup Iteration  24: 101173.295 ops/s
+# Warmup Iteration  25: 100372.148 ops/s
+# Warmup Iteration  26: 100320.738 ops/s
+# Warmup Iteration  27: 98819.481 ops/s
+# Warmup Iteration  28: 99566.372 ops/s
+# Warmup Iteration  29: 99188.136 ops/s
+# Warmup Iteration  30: 99879.512 ops/s
+Iteration   1: 99701.037 ops/s
+Iteration   2: 99482.580 ops/s
+Iteration   3: 99205.865 ops/s
+Iteration   4: 98927.000 ops/s
+Iteration   5: 97751.402 ops/s
+Iteration   6: 100631.810 ops/s
+Iteration   7: 100987.095 ops/s
+Iteration   8: 100901.645 ops/s
+Iteration   9: 101147.528 ops/s
+Iteration  10: 100677.457 ops/s
+Iteration  11: 100930.695 ops/s
+Iteration  12: 100160.602 ops/s
+Iteration  13: 100858.160 ops/s
+Iteration  14: 99983.763 ops/s
+Iteration  15: 100556.952 ops/s
+Iteration  16: 99313.363 ops/s
+Iteration  17: 99350.971 ops/s
+Iteration  18: 100204.195 ops/s
+Iteration  19: 99933.630 ops/s
+Iteration  20: 101194.502 ops/s
+Iteration  21: 101500.550 ops/s
+Iteration  22: 98564.536 ops/s
+Iteration  23: 99607.600 ops/s
+Iteration  24: 100121.230 ops/s
+Iteration  25: 100640.274 ops/s
+Iteration  26: 99544.257 ops/s
+Iteration  27: 100434.662 ops/s
+Iteration  28: 99931.131 ops/s
+Iteration  29: 100801.779 ops/s
+Iteration  30: 100683.017 ops/s
+
+
+Result "zipkin2.clusters.Cluster_8._Benchmark.benchmark_Cluster_8":
+  100124.310 ±(99.9%) 573.929 ops/s [Average]
+  (min, avg, max) = (97751.402, 100124.310, 101500.550), stdev = 859.030
+  CI (99.9%): [99550.380, 100698.239] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                  Mode  Cnt       Score     Error  Units
+Cluster_8._Benchmark.benchmark_Cluster_8  thrpt   30  100124.310 ± 573.929  ops/s
+----------------------------------------
+=== Benchmark: zipkin2.clusters.Cluster_9._Benchmark.benchmark_Cluster_9$ ===
+# JMH version: 1.27
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/java
+# VM options: -XX:+UseParallelGC -Xms12G -Xmx12G
+# JMH blackhole mode: full blackhole + dont-inline hint
+# Warmup: 30 iterations, 2 s each
+# Measurement: 30 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: zipkin2.clusters.Cluster_9._Benchmark.benchmark_Cluster_9
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 38994.349 ops/s
+# Warmup Iteration   2: 63753.532 ops/s
+# Warmup Iteration   3: 96993.672 ops/s
+# Warmup Iteration   4: 96827.053 ops/s
+# Warmup Iteration   5: 96723.563 ops/s
+# Warmup Iteration   6: 82981.848 ops/s
+# Warmup Iteration   7: 85262.848 ops/s
+# Warmup Iteration   8: 96810.191 ops/s
+# Warmup Iteration   9: 99113.560 ops/s
+# Warmup Iteration  10: 99872.098 ops/s
+# Warmup Iteration  11: 100413.921 ops/s
+# Warmup Iteration  12: 99484.347 ops/s
+# Warmup Iteration  13: 100058.575 ops/s
+# Warmup Iteration  14: 98656.997 ops/s
+# Warmup Iteration  15: 100707.825 ops/s
+# Warmup Iteration  16: 99867.878 ops/s
+# Warmup Iteration  17: 99818.372 ops/s
+# Warmup Iteration  18: 99271.017 ops/s
+# Warmup Iteration  19: 99517.668 ops/s
+# Warmup Iteration  20: 100076.714 ops/s
+# Warmup Iteration  21: 99177.905 ops/s
+# Warmup Iteration  22: 99716.624 ops/s
+# Warmup Iteration  23: 99443.499 ops/s
+# Warmup Iteration  24: 100125.970 ops/s
+# Warmup Iteration  25: 97763.511 ops/s
+# Warmup Iteration  26: 99741.204 ops/s
+# Warmup Iteration  27: 100066.120 ops/s
+# Warmup Iteration  28: 98985.028 ops/s
+# Warmup Iteration  29: 99076.092 ops/s
+# Warmup Iteration  30: 99331.868 ops/s
+Iteration   1: 98998.599 ops/s
+Iteration   2: 98929.675 ops/s
+Iteration   3: 99782.315 ops/s
+Iteration   4: 99848.358 ops/s
+Iteration   5: 99307.108 ops/s
+Iteration   6: 98027.722 ops/s
+Iteration   7: 98540.885 ops/s
+Iteration   8: 100326.510 ops/s
+Iteration   9: 99787.332 ops/s
+Iteration  10: 99970.391 ops/s
+Iteration  11: 100667.288 ops/s
+Iteration  12: 99494.130 ops/s
+Iteration  13: 99010.728 ops/s
+Iteration  14: 99113.334 ops/s
+Iteration  15: 98153.127 ops/s
+Iteration  16: 99275.909 ops/s
+Iteration  17: 99718.572 ops/s
+Iteration  18: 99570.716 ops/s
+Iteration  19: 98005.351 ops/s
+Iteration  20: 99291.040 ops/s
+Iteration  21: 98115.972 ops/s
+Iteration  22: 98704.709 ops/s
+Iteration  23: 100159.994 ops/s
+Iteration  24: 98888.098 ops/s
+Iteration  25: 100341.366 ops/s
+Iteration  26: 98678.262 ops/s
+Iteration  27: 99274.918 ops/s
+Iteration  28: 99095.079 ops/s
+Iteration  29: 99784.299 ops/s
+Iteration  30: 99781.532 ops/s
+
+
+Result "zipkin2.clusters.Cluster_9._Benchmark.benchmark_Cluster_9":
+  99288.111 ±(99.9%) 474.127 ops/s [Average]
+  (min, avg, max) = (98005.351, 99288.111, 100667.288), stdev = 709.652
+  CI (99.9%): [98813.983, 99762.238] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                  Mode  Cnt      Score     Error  Units
+Cluster_9._Benchmark.benchmark_Cluster_9  thrpt   30  99288.111 ± 474.127  ops/s
+----------------------------------------
